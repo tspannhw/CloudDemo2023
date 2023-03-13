@@ -4,7 +4,7 @@
   "name": "weather",
   "fields": [
   { "name" : "uuid", "type" : ["null", "string"]}, 
-   { "name" : "ts", "type" : ["long"], "default": 1, "logicalType": "timestamp-millis"}
+   { "name" : "ts", "type" : ["long"], "default": 1, "logicalType": "timestamp-millis"},
     {
     "name": "credit",
     "type": ["null","string"]
@@ -31,8 +31,7 @@
        "name": "link",
     "type": ["null","string"]
       }
-     ]
-    },
+     ]}
    },
    {
     "name": "suggested_pickup",
